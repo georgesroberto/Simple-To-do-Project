@@ -1,12 +1,12 @@
 {
   "canisters": {
-    "Todo_backend": {
-      "main": "src/Todo_backend/main.mo",
+    "backend": {
+      "main": "src/backend/main.mo",
       "type": "motoko"
     },
-    "Todo_frontend": {
+    "frontend": {
       "dependencies": [
-        "Todo_backend"
+        "backend"
       ],
       "source": [
         "src/Todo_frontend/assets"
